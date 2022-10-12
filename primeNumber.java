@@ -2,10 +2,10 @@ package week1.day3;
 
 public class primeNumber {
 	public static void main(String[]args){
-		int n=14;
+		int n=5;
 		int count=0;
 		if(n<=1) {
-			System.out.println("The number is prime");
+			System.out.println("The number is  not prime");
 			return;
 		}
 		for(int i=1;i<=n/2;i++) {
